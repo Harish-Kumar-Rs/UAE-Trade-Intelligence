@@ -1,0 +1,99 @@
+id,text,parent,isLeaf,aggrLevel,standardUnitAbbr
+01,01 - Animals; live,TOTAL,0,2,n/a
+02,02 - Meat and edible meat offal,TOTAL,0,2,n/a
+03,"03 - Fish and crustaceans, molluscs and other aquatic invertebrates",TOTAL,0,2,n/a
+04,"04 - Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",TOTAL,0,2,n/a
+05,05 - Animal originated products; not elsewhere specified or included,TOTAL,0,2,n/a
+06,"06 - Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",TOTAL,0,2,n/a
+07,07 - Vegetables and certain roots and tubers; edible,TOTAL,0,2,n/a
+08,"08 - Fruit and nuts, edible; peel of citrus fruit or melons",TOTAL,0,2,n/a
+09,"09 - Coffee, tea, mate and spices",TOTAL,0,2,n/a
+10,10 - Cereals,TOTAL,0,2,n/a
+11,"11 - Products of the milling industry; malt, starches, inulin, wheat gluten",TOTAL,0,2,n/a
+12,"12 - Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",TOTAL,0,2,n/a
+13,"13 - Lac; gums, resins and other vegetable saps and extracts",TOTAL,0,2,n/a
+14,14 - Vegetable plaiting materials; vegetable products not elsewhere specified or included,TOTAL,0,2,n/a
+15,"15 - Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",TOTAL,0,2,n/a
+16,"16 - Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",TOTAL,0,2,n/a
+17,17 - Sugars and sugar confectionery,TOTAL,0,2,n/a
+18,18 - Cocoa and cocoa preparations,TOTAL,0,2,n/a
+19,"19 - Preparations of cereals, flour, starch or milk; pastrycooks' products",TOTAL,0,2,n/a
+20,"20 - Preparations of vegetables, fruit, nuts or other parts of plants",TOTAL,0,2,n/a
+21,21 - Miscellaneous edible preparations,TOTAL,0,2,n/a
+22,"22 - Beverages, spirits and vinegar",TOTAL,0,2,n/a
+23,"23 - Food industries, residues and wastes thereof; prepared animal fodder",TOTAL,0,2,n/a
+24,"24 - Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",TOTAL,0,2,n/a
+25,"25 - Salt; sulphur; earths, stone; plastering materials, lime and cement",TOTAL,0,2,n/a
+26,"26 - Ores, slag and ash",TOTAL,0,2,n/a
+27,"27 - Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",TOTAL,0,2,n/a
+28,"28 - Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",TOTAL,0,2,n/a
+29,29 - Organic chemicals,TOTAL,0,2,n/a
+30,30 - Pharmaceutical products,TOTAL,0,2,n/a
+31,31 - Fertilizers,TOTAL,0,2,n/a
+32,"32 - Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",TOTAL,0,2,n/a
+33,"33 - Essential oils and resinoids; perfumery, cosmetic or toilet preparations",TOTAL,0,2,n/a
+34,"34 - Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",TOTAL,0,2,n/a
+35,35 - Albuminoidal substances; modified starches; glues; enzymes,TOTAL,0,2,n/a
+36,36 - Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations,TOTAL,0,2,n/a
+37,37 - Photographic or cinematographic goods,TOTAL,0,2,n/a
+38,38 - Chemical products n.e.c.,TOTAL,0,2,n/a
+39,39 - Plastics and articles thereof,TOTAL,0,2,n/a
+40,40 - Rubber and articles thereof,TOTAL,0,2,n/a
+41,41 - Raw hides and skins (other than furskins) and leather,TOTAL,0,2,n/a
+42,"42 - Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",TOTAL,0,2,n/a
+43,43 - Furskins and artificial fur; manufactures thereof,TOTAL,0,2,n/a
+44,44 - Wood and articles of wood; wood charcoal,TOTAL,0,2,n/a
+45,45 - Cork and articles of cork,TOTAL,0,2,n/a
+46,"46 - Manufactures of straw, esparto or other plaiting materials; basketware and wickerwork",TOTAL,0,2,n/a
+47,47 - Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,TOTAL,0,2,n/a
+48,"48 - Paper and paperboard; articles of paper pulp, of paper or paperboard",TOTAL,0,2,n/a
+49,"49 - Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",TOTAL,0,2,n/a
+50,50 - Silk,TOTAL,0,2,n/a
+51,"51 - Wool, fine or coarse animal hair; horsehair yarn and woven fabric",TOTAL,0,2,n/a
+52,52 - Cotton,TOTAL,0,2,n/a
+53,53 - Vegetable textile fibres; paper yarn and woven fabrics of paper yarn,TOTAL,0,2,n/a
+54,54 - Man-made filaments; strip and the like of man-made textile materials,TOTAL,0,2,n/a
+55,55 - Man-made staple fibres,TOTAL,0,2,n/a
+56,"56 - Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof",TOTAL,0,2,n/a
+57,57 - Carpets and other textile floor coverings,TOTAL,0,2,n/a
+58,"58 - Fabrics; special woven fabrics, tufted textile fabrics, lace, tapestries, trimmings, embroidery",TOTAL,0,2,n/a
+59,"59 - Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use",TOTAL,0,2,n/a
+60,60 - Fabrics; knitted or crocheted,TOTAL,0,2,n/a
+61,61 - Apparel and clothing accessories; knitted or crocheted,TOTAL,0,2,n/a
+62,62 - Apparel and clothing accessories; not knitted or crocheted,TOTAL,0,2,n/a
+63,"63 - Textiles, made up articles; sets; worn clothing and worn textile articles; rags",TOTAL,0,2,n/a
+64,64 - Footwear; gaiters and the like; parts of such articles,TOTAL,0,2,n/a
+65,65 - Headgear and parts thereof,TOTAL,0,2,n/a
+66,"66 - Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof",TOTAL,0,2,n/a
+67,"67 - Feathers and down, prepared; and articles made of feather or of down; artificial flowers; articles of human hair",TOTAL,0,2,n/a
+68,"68 - Stone, plaster, cement, asbestos, mica or similar materials; articles thereof",TOTAL,0,2,n/a
+69,69 - Ceramic products,TOTAL,0,2,n/a
+70,70 - Glass and glassware,TOTAL,0,2,n/a
+71,"71 - Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",TOTAL,0,2,n/a
+72,72 - Iron and steel,TOTAL,0,2,n/a
+73,73 - Iron or steel articles,TOTAL,0,2,n/a
+74,74 - Copper and articles thereof,TOTAL,0,2,n/a
+75,75 - Nickel and articles thereof,TOTAL,0,2,n/a
+76,76 - Aluminium and articles thereof,TOTAL,0,2,n/a
+77,77 - (Reserved for possible future use in the Harmonized System),TOTAL,0,2,n/a
+78,78 - Lead and articles thereof,TOTAL,0,2,n/a
+79,79 - Zinc and articles thereof,TOTAL,0,2,n/a
+80,80 - Tin; articles thereof,TOTAL,0,2,n/a
+81,"81 - Metals; n.e.c., cermets and articles thereof",TOTAL,0,2,n/a
+82,"82 - Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal",TOTAL,0,2,n/a
+83,83 - Metal; miscellaneous products of base metal,TOTAL,0,2,n/a
+84,"84 - Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",TOTAL,0,2,n/a
+85,"85 - Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",TOTAL,0,2,n/a
+86,"86 - Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",TOTAL,0,2,n/a
+87,"87 - Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",TOTAL,0,2,n/a
+88,"88 - Aircraft, spacecraft, and parts thereof",TOTAL,0,2,n/a
+89,"89 - Ships, boats and floating structures",TOTAL,0,2,n/a
+90,"90 - Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",TOTAL,0,2,n/a
+91,91 - Clocks and watches and parts thereof,TOTAL,0,2,n/a
+92,92 - Musical instruments; parts and accessories of such articles,TOTAL,0,2,n/a
+93,93 - Arms and ammunition; parts and accessories thereof,TOTAL,0,2,n/a
+94,"94 - Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",TOTAL,0,2,n/a
+95,"95 - Toys, games and sports requisites; parts and accessories thereof",TOTAL,0,2,n/a
+96,96 - Miscellaneous manufactured articles,TOTAL,0,2,n/a
+97,97 - Works of art; collectors' pieces and antiques,TOTAL,0,2,n/a
+99,99 - Commodities not specified according to kind,TOTAL,0,2,n/a

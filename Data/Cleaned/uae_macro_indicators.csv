@@ -1,0 +1,21 @@
+year,indicator_code,indicator_name,value,country,iso3
+2023,NY.GDP.MKTP.CD,gdp_current_usd,522622191967.325,United Arab Emirates,ARE
+2022,NY.GDP.MKTP.CD,gdp_current_usd,511403403675.97,United Arab Emirates,ARE
+2021,NY.GDP.MKTP.CD,gdp_current_usd,422441388699.796,United Arab Emirates,ARE
+2020,NY.GDP.MKTP.CD,gdp_current_usd,357161878829.135,United Arab Emirates,ARE
+2023,NE.TRD.GNFS.ZS,trade_pct_gdp,199.044979237546,United Arab Emirates,ARE
+2022,NE.TRD.GNFS.ZS,trade_pct_gdp,185.741660982819,United Arab Emirates,ARE
+2021,NE.TRD.GNFS.ZS,trade_pct_gdp,182.909355066597,United Arab Emirates,ARE
+2020,NE.TRD.GNFS.ZS,trade_pct_gdp,181.29188817064,United Arab Emirates,ARE
+2023,FP.CPI.TOTL.ZG,inflation_rate,1.62670837213248,United Arab Emirates,ARE
+2022,FP.CPI.TOTL.ZG,inflation_rate,5.29122604376849,United Arab Emirates,ARE
+2021,FP.CPI.TOTL.ZG,inflation_rate,0.179935336174431,United Arab Emirates,ARE
+2020,FP.CPI.TOTL.ZG,inflation_rate,-2.07940317940943,United Arab Emirates,ARE
+2023,NY.GDP.MKTP.KD.ZG,gdp_growth_rate,4.30118228020602,United Arab Emirates,ARE
+2022,NY.GDP.MKTP.KD.ZG,gdp_growth_rate,7.51448425801082,United Arab Emirates,ARE
+2021,NY.GDP.MKTP.KD.ZG,gdp_growth_rate,4.55278571242283,United Arab Emirates,ARE
+2020,NY.GDP.MKTP.KD.ZG,gdp_growth_rate,-8.69342617885171,United Arab Emirates,ARE
+2023,BX.KLT.DINV.WD.GD.ZS,fdi_pct_gdp,5.87184069440898,United Arab Emirates,ARE
+2022,BX.KLT.DINV.WD.GD.ZS,fdi_pct_gdp,4.44591399207935,United Arab Emirates,ARE
+2021,BX.KLT.DINV.WD.GD.ZS,fdi_pct_gdp,4.89230472033291,United Arab Emirates,ARE
+2020,BX.KLT.DINV.WD.GD.ZS,fdi_pct_gdp,5.56735507865122,United Arab Emirates,ARE
