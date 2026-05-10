@@ -1,90 +1,74 @@
-# UAE Trade Intelligence — Business Analytics Capstone
+# UAE Trade Intelligence — End-to-End Analytics Case Study
 
-An end-to-end business analytics project examining UAE international trade flows (2020–2023), built using real-world data from the UN Comtrade API and World Bank API.
+> **Note:** This project uses UN Comtrade data for 2020–2023 as a portfolio case study demonstrating end-to-end analytics methodology.
 
----
+![Trade Overview](assets/page1_trade_overview.png)
 
-## Project Summary
+## Project Overview
 
-UAE total trade grew **78.75%** between 2020 and 2023, driven by both oil and non-oil sectors.  
-This project analyzes trade concentration, commodity vulnerability, re-export patterns, and macroeconomic correlations to surface actionable insights for trade strategy.
+A full-stack business analytics project analysing UAE international trade patterns, commodity diversification, partner concentration, and macroeconomic correlations using real-world data from the UN Comtrade API and World Bank.
 
----
+## Pipeline
+UN Comtrade API → Pandas Cleaning → PostgreSQL → Power BI Dashboard → NumPy/Pandas Statistics → PowerPoint Report
 
 ## Key Findings
 
 | Metric | Value |
-|---|---|
-| Total Trade Growth (2020–2023) | 78.75% |
+|--------|-------|
+| Total Trade Growth 2020–2023 | 78.75% |
 | Non-Oil Trade Share | 61% |
-| Top Trade Partner (China) | 12.72% share |
-| Top 5 Partners Combined Share | 37.10% |
-| Trade vs GDP Correlation | 0.987 |
+| China Trade Share (Top Partner) | 12.72% |
+| Top 5 Partners Combined | 37.10% |
+| Trade vs GDP Correlation | 0.987 (directional, n=4) |
+| Average Annual Growth Rate | 21.70% |
 
----
+## Dashboard Preview
+
+### Trade Overview
+![Trade Overview](assets/page1_trade_overview.png)
+
+### Partner Concentration
+![Partner Concentration](assets/page2_partner_concentration.png)
+
+### Commodity Intelligence
+![Commodity Intelligence](assets/page3_commodity_intelligence.png)
+
+### Macro Correlation
+![Macro Correlation](assets/page4_macro_correlation.png)
 
 ## Tech Stack
 
 | Tool | Purpose |
-|---|---|
-| Python (Pandas, NumPy) | Data collection, cleaning, statistical analysis |
-| UN Comtrade API | Trade flow data source |
-| World Bank API | Macroeconomic indicators (GDP, inflation, FDI) |
-| PostgreSQL | Relational database, analytical views |
-| Power BI | Interactive dashboards (4 pages) |
-| PowerPoint | Executive summary report (13 slides) |
-
----
+|------|---------|
+| Python + Pandas | Data collection, cleaning, pipeline |
+| PostgreSQL | Data storage, 8 analytical views |
+| Power BI | Interactive 4-page dashboard |
+| NumPy + Pandas | Statistical analysis |
+| UN Comtrade API | Raw trade data |
+| World Bank API | Macro indicators |
 
 ## Project Structure
-Project_1/
+
 ├── data/
-│   ├── raw/                        # 4 CSV files from UN Comtrade API (2020–2023)
-│   └── uae_trade_clean.csv         # Cleaned dataset — 89,396 rows, 11 columns
+│   └── uae_trade_clean.csv        ## Cleaned dataset (89,396 rows)
 ├── notebooks/
-│   ├── 01_data_collection.ipynb    # API calls — UN Comtrade + World Bank
-│   ├── 02_data_cleaning.ipynb      # Pandas cleaning pipeline
-│   └── 03_statistical_analysis.ipynb  # Correlation, concentration, growth analysis
+│   └── UAE_Trade_Statistical_Analysis.ipynb
 ├── sql/
-│   └── views.sql                   # 8 PostgreSQL analytical views
+│   └── views.sql                  ## 8 PostgreSQL analytical views
+├── assets/
+│   └── *.png                      ## Dashboard screenshots
 ├── reports/
-│   └── UAE_Trade_Intelligence_Report.pptx  # 13-slide executive report
+│   └── UAE_Trade_Intelligence_Report.pptx
 └── README.md
----
 
-## Database — PostgreSQL Views
+## Analytical Limitations
 
-Eight analytical views were built in PostgreSQL to support Power BI and statistical analysis:
-
-| View | Purpose |
-|---|---|
-| `v_commodity_vulnerability` | Oil vs Non-Oil classification, supplier exposure |
-| `v_trade_concentration` | Partner trade share % by year |
-| `v_reexport_proxy` | Re-export candidate identification |
-| `v_macro_trade_correlation` | Trade vs GDP, inflation, FDI correlation |
-| `v_top_partners` | All partners ranked by trade value |
-| `v_top5_partners` | Top 5 partners with 2020–2023 growth % |
-| `v_china_commodity_imports` | China import breakdown by HS commodity |
-| `v_commodity_growth` | Top 5 commodity chapter trends |
-
----
-
-## Power BI Dashboard
-
-Four-page interactive dashboard covering:
-- Trade overview and growth trends
-- Partner concentration analysis
-- Commodity breakdown (Oil vs Non-Oil)
-- Macroeconomic correlation
-
-> `.pbix` file not included in this repository due to file size.  
-> Screenshots available on request.
-
----
+- Correlation statistics based on 4-year window — directional trends only, not statistically significant
+- 2022 energy price surge is a confounding variable in trade-GDP correlation
+- HS 999 unclassified records excluded from commodity analysis
+- Dataset covers 2020–2023 — for current trade intelligence, update via Comtrade API
 
 ## Data Sources
 
-- [UN Comtrade API](https://comtradeplus.un.org/) — Trade flow data
-- [World Bank API](https://data.worldbank.org/) — Macroeconomic indicators
-
----
+- [UN Comtrade](https://comtradeplus.un.org/) — Trade flows by commodity and partner
+- [World Bank Open Data](https://data.worldbank.org/) — GDP, inflation, FDI indicators
